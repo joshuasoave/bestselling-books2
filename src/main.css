@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  width: auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap");
+
+/*HEADER*/
+header {
+  height: 128px;
+  background: black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 6px solid black;
+  font-family: "Indie Flower", cursive;
+  background-image: url("./assets/images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-size: 50px;
+  margin: 0;
+  background: peachpuff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/*MAIN*/
+main,
+.topTenContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+main {
+  padding-top: 10px;
+}
+
+.container {
+  width: 70%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.bookContainer {
+  width: 50%;
+  padding-top: 30px;
+  border: 2px solid black;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.bookCover {
+  height: 300px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.bookTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.bookAuthor {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*FOOTER*/
+footer {
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  margin: 0 8px;
+  bottom: 12px;
+  height: 36px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer img {
+  border-radius: 5%;
+  border: 2px solid black;
+  margin-right: 0.7em;
+}
