@@ -4,18 +4,11 @@ const Footer = () => {
   return (
     <footer>
       <div className="footerContent">
-        <h3>By: Joshua Soave</h3>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://icons8.com/icon/112289/book"
-        >
-          Book
-        </a>{" "}
-        icon by{" "}
-        <a target="_blank" rel="noreferrer" href="https://icons8.com">
-          Icons8
-        </a>
+        <div>
+          <h3>By: Joshua Soave</h3>
+          <h5>Book icon by Icons8</h5>
+        </div>
+
         <a
           href="https://developer.nytimes.com"
           target="_blank"
