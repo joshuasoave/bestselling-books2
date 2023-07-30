@@ -16,8 +16,13 @@ header {
   border-bottom: 6px solid black;
   font-family: "Indie Flower", cursive;
   background-image: url("./assets/images/header.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 30% 30%;
 }
 
 header h1 {
@@ -26,6 +31,7 @@ header h1 {
   background: peachpuff;
   padding: 5px 10px;
   border-radius: 10px;
+  text-align: center;
 }
 
 /*MAIN*/
