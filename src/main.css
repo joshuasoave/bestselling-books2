@@ -111,7 +111,6 @@ footer img {
   margin-right: 0.7em;
 }
 
-//write a media query for desktop
 @media (min-width: 1024px) {
   .container {
     width: 70%;
