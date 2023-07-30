@@ -144,6 +144,15 @@ footer img {
   height: auto;
 }
 
+@media only screen and (min-width: 375px) {
+  header {
+    height: 92px;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+}
+
 @media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
   .bookContainer {
     width: 80%;
