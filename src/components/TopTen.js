@@ -48,7 +48,7 @@ const TopTen = () => {
             <h5 className="bookTitle">{book.title}</h5>
             <p className="bookAuthor">{book.author}</p>
             <img className="bookCover" src={book.book_image} alt={book.title} />
-            <p>{book.description}</p>
+            <p className="bookDescription">{book.description}</p>
           </div>
         );
       })}
