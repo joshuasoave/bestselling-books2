@@ -6,6 +6,17 @@ const Footer = () => {
       <div className="footerContent">
         <h3>By: Joshua Soave</h3>
         <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://icons8.com/icon/112289/book"
+        >
+          Book
+        </a>{" "}
+        icon by{" "}
+        <a target="_blank" rel="noreferrer" href="https://icons8.com">
+          Icons8
+        </a>
+        <a
           href="https://developer.nytimes.com"
           target="_blank"
           rel="noreferrer"

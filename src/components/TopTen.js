@@ -30,7 +30,6 @@ const TopTen = () => {
             const topTenBooks = allBooks?.slice(0, 10);
             setTopTen(topTenBooks);
           } catch (error) {
-            // Handle error if the promise is rejected
             console.error(error);
           }
         };
