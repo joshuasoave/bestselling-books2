@@ -153,6 +153,15 @@ footer img {
   }
 }
 
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  main {
+    margin-top: 10px;
+  }
+  header {
+    background-image: url("./assets/images/small-header.jpg");
+  }
+}
+
 @media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
   .bookContainer {
     width: 80%;
