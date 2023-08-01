@@ -5,6 +5,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap");
 
+/*SPINNER*/
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 /*HEADER*/
 header {
   height: 128px;
