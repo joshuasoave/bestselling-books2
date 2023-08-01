@@ -40,9 +40,11 @@ header h1 {
 }
 
 /*MAIN*/
+
 main {
-  margin-top: 20px;
+  padding-top: 20px;
 }
+
 main,
 .topTenContainer {
   display: flex;
