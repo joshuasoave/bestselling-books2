@@ -13,7 +13,7 @@ The "Get Data" feature in the application calls the custom-built books API to re
 
 <img width="602" alt="Screen Shot 2023-07-23 at 10 09 30 PM" src="https://github.com/joshuasoave/nyt-bestsellers/assets/62475382/7d1b9365-e766-4192-ab06-42131e666786">
 
-<img width="494" alt="Screen Shot 2023-07-23 at 10 16 55 PM" src="https://github.com/joshuasoave/nyt-bestsellers/assets/62475382/32c21dab-3297-4ba0-b49f-f2c5b9c03201">
+<img width="473" alt="Screen Shot 2023-08-02 at 11 21 59 AM" src="https://github.com/joshuasoave/bestselling-books2/assets/62475382/ec9c9038-a5e6-4a0a-a26c-6d585123cf40">
 
 ## Testing
 The application includes a testing component to ensure the functionality of the custom-built books API. The test checks whether a successful response with a status code of 200 is received from the API call. Furthermore, it verifies that the number of responses being sent back from the API is 15, as expected for fetching the top books from the New York Times bestseller list.
