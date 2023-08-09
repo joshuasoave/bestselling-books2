@@ -1,7 +1,7 @@
 # Bestselling Books
 
 ## About
-[Bestselling Books](https://bestselling-books-e7edc076b5e6.herokuapp.com/) is a web application that displays the top ten books from the New York Times bestseller list. The project utilizes a custom-built [Books API](https://github.com/joshuasoave/books-api) to fetch data from the New York Times and present the top books to the users. Additionally, there are plans to implement wishlists, allowing users to create accounts and save their favorite books for future reference.
+[Bestselling Books](https://booksv2-1317d7b20530.herokuapp.com/) is a web application that displays the top ten books from the New York Times bestseller list. The project utilizes a custom-built [Books API](https://github.com/joshuasoave/books-api) to fetch data from the New York Times and present the top books to the users. Additionally, there are plans to implement wishlists, allowing users to create accounts and save their favorite books for future reference.
 
 <img width="1082" alt="Screen Shot 2023-08-02 at 11 19 08 AM" src="https://github.com/joshuasoave/bestselling-books2/assets/62475382/c4bcb01d-c27f-41b1-a8cf-678f6eb4d5d4">
 
