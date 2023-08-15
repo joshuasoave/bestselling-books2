@@ -4,7 +4,6 @@ import { useState } from "react";
 
 const TopTen = () => {
   const [allBooks, setAllBooks] = useState([]);
-  const [topTen, setTopTen] = useState([]);
   const [bookIndex, setBookIndex] = useState(0);
 
   const getCurrentFictionBooks = () => {
@@ -25,8 +24,6 @@ const TopTen = () => {
             const booksData = await getCurrentFictionBooks();
             const allBooks = booksData?.results?.books;
             setAllBooks(allBooks);
-            const topTenBooks = allBooks?.slice(0, 10);
-            setTopTen(topTenBooks);
           } catch (error) {
             // Handle error if the promise is rejected
             console.error(error);
@@ -40,7 +37,7 @@ const TopTen = () => {
   }, [allBooks.length]);
 
   const increaseIndex = () => {
-    if (bookIndex < 9) {
+    if (bookIndex < allBooks.length - 1) {
       setBookIndex(bookIndex + 1);
     }
   };
@@ -54,12 +51,6 @@ const TopTen = () => {
 
   return (
     <div>
-      <div className="bookContainer">
-        <h5 className="bookTitle">{book?.title}</h5>
-        <p className="bookAuthor">{book?.author}</p>
-        <img className="bookCover" src={book?.book_image} alt={book?.title} />
-        <p>{book?.description}</p>
-      </div>
       <div className="buttonContainer">
         {bookIndex !== 0 ? (
           <button onClick={decreaseIndex}>Previous</button>
@@ -71,6 +62,12 @@ const TopTen = () => {
         ) : (
           <div></div>
         )}
+      </div>
+      <div className="bookContainer">
+        <h5 className="bookTitle">{book?.title}</h5>
+        <p className="bookAuthor">{book?.author}</p>
+        <img className="bookCover" src={book?.book_image} alt={book?.title} />
+        <p className="bookDescription">{book?.description}</p>
       </div>
     </div>
   );
