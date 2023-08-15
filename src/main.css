@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #dab9ff;
+  font-family: "Raleway", sans-serif;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap");
 
 /*SPINNER*/
@@ -45,8 +50,7 @@ main {
   padding-top: 20px;
 }
 
-main,
-.topTenContainer {
+main {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -70,6 +74,8 @@ footer,
   margin-right: auto;
   font-family: "Raleway", sans-serif;
 }
+
+/* Top 10 books */
 
 .bookContainer {
   width: 70%;
@@ -118,9 +124,16 @@ footer,
   margin-bottom: 10px;
 }
 
+/* BUTTONS */
+
+.buttonContainer {
+  display: flex;
+}
+
 /*FOOTER*/
 footer {
-  position: relative;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   margin-top: 10px;
   padding-top: 50px;
@@ -213,7 +226,7 @@ footer img {
 
   .bookContainer {
     width: 50%;
-    margin-top: 15px;
+    max-width: 500px;
   }
 
   .bookCover {
