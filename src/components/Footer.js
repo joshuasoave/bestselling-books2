@@ -8,12 +8,12 @@ const Footer = () => {
           <h3>By: Joshua Soave</h3>
           <h5>Book icon by Icons8</h5>
         </div>
-        <div class="footerLogo">
+        <div className="footerLogo">
           <a
             href="https://developer.nytimes.com"
             target="_blank"
             rel="noreferrer"
-            class="footerLink"
+            className="footerLink"
           >
             <img
               alt="new york times logo"
