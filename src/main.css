@@ -22,7 +22,7 @@ body {
 
 /*HEADER*/
 header {
-  height: 128px;
+  height: 112px;
   width: 100%;
   background: black;
   color: black;
@@ -55,7 +55,7 @@ footer,
 
 main {
   width: 70%;
-  padding-top: 30px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,8 +68,9 @@ main {
 /* Top 10 books */
 
 .bookContainer {
-  width: 70%;
-  padding-top: 30px;
+  width: 60%;
+  height: 60%;
+  padding-top: 10px;
   border: 2px solid black;
   padding: 12px;
   margin-bottom: 10px;
@@ -83,6 +84,7 @@ main {
   font-family: "Raleway", sans-serif;
   border-radius: 10px;
   background: peachpuff;
+  z-index: 10;
 }
 
 .bookCover {
@@ -117,7 +119,7 @@ main {
 .buttonContainer {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 button {
@@ -219,11 +221,11 @@ footer img {
     background-image: url("./assets/images/header.jpg");
   }
   .container {
-    width: 70%;
+    width: 60%;
   }
 
   .bookContainer {
-    width: 80%;
+    width: 70%;
     max-width: 500px;
   }
 
