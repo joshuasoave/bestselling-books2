@@ -68,7 +68,7 @@ main {
 /* Top 10 books */
 
 .bookContainer {
-  width: 70%;
+  width: 80%;
   height: 60%;
   padding-top: 10px;
   border: 2px solid black;
@@ -99,14 +99,13 @@ main {
 }
 
 .bookTitle {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .bookAuthor {
   font-size: 16px;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
