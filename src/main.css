@@ -6,7 +6,7 @@
 body {
   background: #dab9ff;
   font-family: "Raleway", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap");
@@ -89,7 +89,7 @@ main {
 
 .bookCover {
   height: auto;
-  width: 70%;
+  width: 60%;
   margin-bottom: 10px;
   margin-top: 10px;
   background: white;
