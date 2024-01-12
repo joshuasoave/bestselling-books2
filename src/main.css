@@ -43,13 +43,12 @@ header h1 {
   padding: 5px 10px;
   border-radius: 10px;
   text-align: center;
+  border: 2px solid black;
 }
 
 /*MAIN*/
 
-main,
-footer,
-.footerContent {
+main {
   background: #dab9ff;
 }
 
@@ -88,8 +87,8 @@ main {
 }
 
 .bookCover {
-  height: auto;
-  width: 60%;
+  height: 472px;
+  width: 236px;
   margin-bottom: 10px;
   margin-top: 10px;
   background: white;
@@ -117,18 +116,19 @@ main {
 
 .buttonContainer {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 16px;
 }
 
 button {
-  background: peachpuff;
   color: black;
   border: 2px solid black;
   border-radius: 5px;
   padding: 5px 10px;
   font-size: 18px;
   cursor: pointer;
+  background: #b9ffda;
 }
 
 /*FOOTER*/
@@ -224,13 +224,15 @@ footer img {
   }
 
   .bookContainer {
-    width: 70%;
+    margin-top: 16px;
+    width: 80%;
     max-width: 500px;
+    height: 600px;
   }
 
   .bookCover {
-    width: 70%;
-    height: 10%;
+    width: 60%;
+    height: 100%;
   }
 
   .bookDescription {
